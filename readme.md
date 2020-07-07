@@ -1,8 +1,8 @@
-#LSTM-SPP (LSTM Stock Price Prediction Model)
+# LSTM-SPP (LSTM Stock Price Prediction Model)
 
 LSTM-SPP is a basic multi-variate, multi-step LSTM Recurrent Neural Network (RNN). It is configured specifically for stock price predictions, with the default settings allowing predictions of up to 7 trading days ahead. The project is readily modifiable by providing the core essentials in an algorithmic trading model based on Artificial Neural Networks. I strongly recommend to use of additional modules to increase the value of using LSTM-SPP.
 
-#Possible Modules
+# Possible Modules
 
 Some possible modules that can be added into the project are as follows:
 
@@ -19,7 +19,7 @@ Some possible modules that can be added into the project are as follows:
 * Graph Visualisation
     * A simple implementation of the matplotlib or plotly library can help you visualise the predictions and existing data. This may be useful for technical analysts, especially after fine-tuning necessary settings and modifying the multi-step range.
 
-#Usage
+# Usage
 LSTM-SPP is not intended for use in real stock market conditions. While backtesting has returned low RMSE values (<1%) for a 100 epoch model, such a method of confidence is flawed due to the nature of predicting past data. Since LSTM-SPP only contains the core essentials, an array of modules must be added to ensure its effectiveness outside of a testing environment.
 
 * With reference to a paper titled 'Application of Machine Learning: Automated Trading Informed by Event Driven Data', the examination of out-of-sample test sets and our empirical results showed that, despite poor prediction accuracy, the resulting trading strategies out-performed the market over a period. However, the results of the simple trading strategy based on the next day’s predicted return are limited. These trading models do not take into account market dynamics that could influence the cumulative return of the strategy. While liquidity may not be a big problem when trading a highly liquid instrument, otherfactors like transaction costs, bid-ask spreads and market impact of our trades could play a big role in reducing strategy returns. 
@@ -35,7 +35,7 @@ If you are not deterred by the risks, the model can be used in the following man
 
 4. After running prediction.py, an array of 7 trading day stock price predictions is produced (on default settings). The values are in chronological order. 
 
-#License
+# License
 Copyright ©️ 2020 jaydxn1
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
