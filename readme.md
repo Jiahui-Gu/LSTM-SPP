@@ -1,6 +1,6 @@
 # LSTM-SPP (LSTM Stock Price Prediction Model)
 
-LSTM-SPP is a basic multi-variate, multi-step LSTM Recurrent Neural Network (RNN). It is configured specifically for stock price predictions, with the default settings allowing predictions of up to 7 trading days ahead. The project is readily modifiable by providing the core essentials in an algorithmic trading model based on Artificial Neural Networks. I strongly recommend to use of additional modules to increase the value of using LSTM-SPP.
+LSTM-SPP is a basic multi-variate, multi-step LSTM Recurrent Neural Network (RNN). It is configured specifically for stock price predictions, with the default settings allowing predictions of up to 7 trading days ahead. The project is readily modifiable by providing the core essentials in an algorithmic trading model based on Artificial Neural Networks. I strongly recommend the use of additional modules to increase the value of using LSTM-SPP.
 
 # Possible Modules
 
